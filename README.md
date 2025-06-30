@@ -1,73 +1,128 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🎓 WikiWhiz – Learn Smarter with Wikipedia-Powered Quizzes
 
-**URL**: https://lovable.dev/projects/6be9505f-0635-402e-9cab-d99459567938
+Welcome to **WikiWhiz**, your personal trivia companion that transforms Wikipedia content into interactive quizzes! Designed during the **WikiVerse Hackathon** at IIIT-Hyderabad, WikiWhiz makes learning fun, fast, and fact-based — perfect for students, trivia enthusiasts, and lifelong learners.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Project Overview
 
-**Use Lovable**
+**WikiWhiz** leverages the vast knowledge base of **Wikipedia APIs** to generate dynamic multiple-choice questions (MCQs) on various topics like science, history, and art. Instead of passively reading articles, users can now *actively engage* with knowledge through gamified quizzes.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6be9505f-0635-402e-9cab-d99459567938) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎯 Problem Statement
 
-**Use your preferred IDE**
+While Wikipedia holds a wealth of educational information, it's mostly consumed passively. There is a lack of engaging, interactive ways for users—especially students—to test and retain what they learn. WikiWhiz aims to change that by offering a trivia platform that taps into Wikipedia's open knowledge network.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ✨ Features
 
-Follow these steps:
+- 🔄 Auto-generated quiz questions using Wikipedia extracts
+- 🧠 Randomized multiple-choice answers (MCQs)
+- 📚 Topic-based learning (Science, History, Geography, Technology, Literature, Sports)
+- 💡 Real-time scoring and feedback system
+- 🎮 Lightweight, responsive UI for web and mobile
+- 🏆 Performance tracking with accuracy statistics
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🔌 APIs Used
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **Wikipedia API**: [`https://en.wikipedia.org/w/api.php`](https://en.wikipedia.org/w/api.php)  
+Used to search articles and extract topic summaries for quiz generation.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+*(Future Scope)*  
+- **Wikidata API**: For structured fact-based Q&A  
+- **Wikibooks API**: For educational content integration
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js with TypeScript
+- **Styling**: Tailwind CSS with shadcn/ui components
+- **APIs**: Wikipedia Public API  
+- **Build Tool**: Vite
+- **Deployment**: GitHub Pages / Vercel (suggested)
+
+---
+
+## 📽️ Demo
+
+> 🎥 [Add your demo video link here, e.g., YouTube or Drive]
+
+---
+
+## 🧑‍🤝‍🧑 Team WikiWhiz
+
+Built with passion during WikiVerse Hackathon by:
+
+- 🧑‍💻 **Shashank Verma** (Team Lead) – AI Developer & API Integration  
+  📧 f20230547@pilani.bits-pilani.ac.in
+
+- 🎨 **Aditya Tarun J** – UI/UX Designer  
+  📧 adityatarunjandhyala6996@gmail.com
+
+- 🛠 **Sanjana Kanchi** – Frontend Developer  
+  📧 sanjanakanchi21@gmail.com
+
+- 📋 **Chandra Harsha** – Content Designer & Project Coordinator
+
+---
+
+## 📦 How to Run Locally
+
+```bash
+git clone https://github.com/yourusername/wikiwhiz.git
+cd wikiwhiz
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🎮 How to Play
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. **Choose Your Topic**: Select from Science, History, Geography, Technology, Literature, or Sports
+2. **Answer Questions**: Read Wikipedia excerpts and identify the correct topic
+3. **Track Your Score**: Earn 10 points for each correct answer
+4. **View Results**: See your final score and accuracy percentage after 5 questions
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📈 Future Enhancements
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Add difficulty levels (Easy, Medium, Hard)
+- Support for image-based questions (using Wikimedia Commons)
+- User accounts and global leaderboards
+- Multilingual trivia using Wiktionary API
+- Daily challenges and streak tracking
+- Social sharing of scores
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/6be9505f-0635-402e-9cab-d99459567938) and click on Share -> Publish.
+## 🤝 Contributing
 
-## Can I connect a custom domain to my Lovable project?
+We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to WikiWhiz.
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📜 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is open-source under the MIT License.
+
+---
+
+## 🙌 Acknowledgements
+
+- **Wikimedia Foundation** for the open APIs
+- **IIIT-Hyderabad & WikiVerse Hackathon Team**
+- All open knowledge contributors worldwide!
+
+---
+
+**Let's make knowledge fun, accessible, and interactive! 🌍📚**
